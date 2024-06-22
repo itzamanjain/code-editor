@@ -1,4 +1,3 @@
-import { CodeBlock } from 'some-codeblock-library';
 
 # Code Editor
 

@@ -1,23 +1,39 @@
-Ace (Ajax.org Cloud9 Editor)
-============================
-[![CDNJS](https://img.shields.io/cdnjs/v/ace.svg)](https://cdnjs.com/libraries/ace)
-[![npm](https://img.shields.io/npm/v/ace-builds.svg)](https://www.npmjs.com/package/ace-builds)
+import { CodeBlock } from 'some-codeblock-library';
 
-Ace is a code editor written in JavaScript.
+# Code Editor
 
-This repository has only generated files.
-If you want to work on ace please go to https://github.com/ajaxorg/ace instead.
+A simple and powerful code editor . This project showcases the capabilities of the Ace editor, allowing users to write and edit code efficiently.
 
+## Features
 
-here you can find pre-built files for convenience of embedding.
-it contains 4 versions
- * [src](https://github.com/ajaxorg/ace-builds/tree/master/src)              concatenated but not minified
- * [src-min](https://github.com/ajaxorg/ace-builds/tree/master/src-min)      concatenated and minified with uglify.js
- * [src-noconflict](https://github.com/ajaxorg/ace-builds/tree/master/src-noconflict)      uses ace.require instead of require
- * [src-min-noconflict](https://github.com/ajaxorg/ace-builds/tree/master/src-min-noconflict)      concatenated, minified with uglify.js, and uses ace.require instead of require
+- Syntax highlighting for various programming languages.
+- Code folding and auto-completion.
+- Customizable themes and keyboard shortcuts.
+- Lightweight and easy to embed in web applications.
 
+## Installation
 
-For a simple way of embedding ace into webpage see [editor.html](https://github.com/ajaxorg/ace-builds/blob/master/editor.html) or list of other [simple examples](https://github.com/ajaxorg/ace-builds/tree/master/demo)
-To see ace in action go to [kitchen-sink-demo](http://ajaxorg.github.com/ace-builds/kitchen-sink.html), [scrollable-page-demo](http://ajaxorg.github.com/ace-builds/demo/scrollable-page.html) or [minimal demo](http://ajaxorg.github.com/ace-builds/editor.html),
+Clone the repository:
 
+<CodeBlock language="sh">
+{`git clone https://github.com/itzamanjain/code-editor.git`}
+</CodeBlock>
+
+Navigate to the project directory:
+
+<CodeBlock language="sh">
+{`cd code-editor`}
+</CodeBlock>
+
+Install dependencies:
+
+<CodeBlock language="sh">
+{`npm install`}
+</CodeBlock>
+
+Run the application:
+
+<CodeBlock language="sh">
+{`node server1.js`}
+</CodeBlock>
 
